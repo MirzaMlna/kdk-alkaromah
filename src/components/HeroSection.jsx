@@ -14,7 +14,7 @@ export default function HeroSection() {
           <Col md={6}>
             <Image
               width={isSmallScreen ? 100 : 200} // Adjust width based on screen size
-              src="../src/assets/kdk-logo.png"
+              src="./src/assets/kdk-logo.png"
               className="mb-3 me-3"
               fluid
               rounded
@@ -25,7 +25,7 @@ export default function HeroSection() {
               Kajian Dakwah Kampus <br /> Al-Karomah
             </h1>
             <h4 className="fw-light fst-italic">
-              &ldquo; Mencetak Generasi Terbaik Ummat &rdquo;
+              &ldquo; Generasi Terbaik Ummat &rdquo;
             </h4>
             <button className="btn btn-lg btn-success mt-4">
               Bergabung Dengan Kami

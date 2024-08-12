@@ -1,15 +1,20 @@
+import PropTypes from "prop-types";
 import Container from "react-bootstrap/Container";
 
-function AboutSection() {
+AboutSection.propTypes = {
+  showModalButton: PropTypes.func.isRequired,
+};
+
+export default function AboutSection({ showModalButton }) {
   return (
     <section id="aboutSection" className="mt-5 px-3 ">
       <Container>
         <h2 className="fw-bold">Tentang Kami</h2>
         <p className="text-justify">
-          KDK Al Karomah didirikan pada hari Rabu tanggal 20 bulan September
-          2000 M atau tanggal 21 bulan Jumadil Tsani tahun 1421 H. KDK Al
-          Karomah merupakan organisasi dakwah di lingkungan kampus UNISKA yang
-          secara struktural di bawah BEM UNISKA dan sejajar dengan Unit Kegiatan
+          KDK Al Karomah didirikan pada hari Rabu tanggal 20 September 2000 M
+          atau tanggal 21 bulan Jumadil Akhir tahun 1421 H. KDK Al Karomah
+          merupakan organisasi dakwah di lingkungan kampus UNISKA yang secara
+          struktural di bawah BEM UNISKA dan sejajar dengan Unit Kegiatan
           Mahasiswa (UKM) di UNISKA. KDK Al Karomah berkedudukan di Universitas
           Islam Kalimantan (UNISKA) Muhammad Arsyad Al Banjari (MAB). Tujuan
           Organisasi ini adalah mewujudkan civitas akademika muslim di
@@ -26,10 +31,10 @@ function AboutSection() {
           pembinaan, pengkaderan, Syi &apos;ar Islam dan Ukhuwah Islamiyah.
         </p>
 
-        <button className="btn btn-success">Pelajari Lebih Lanjut</button>
+        <button className="btn btn-success" onClick={showModalButton}>
+          Pelajari Lebih Lanjut
+        </button>
       </Container>
     </section>
   );
 }
-
-export default AboutSection;

@@ -8,7 +8,7 @@ export default function MainNavbar() {
   return (
     <Navbar
       expand="lg"
-      className="bg-kdk sticky-top shadow"
+      className="bg-kdk sticky-top shadow "
       data-bs-theme="dark"
     >
       <Container>
@@ -21,17 +21,17 @@ export default function MainNavbar() {
             <Nav.Link href="#aboutSection">
               <i className="bi bi-people"> </i> Tentang Kami
             </Nav.Link>
-            <Nav.Link href="#division">
+            <Nav.Link href="#divisionSection">
               <i className="bi bi-hdd-network"> </i> Divisi
             </Nav.Link>
-            <Nav.Link href="#gallery">
+            {/* <Nav.Link href="#gallerySection">
               <i className="bi bi-images"> </i>Galeri
-            </Nav.Link>
-            <NavDropdown title="Sosial Media" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+            </Nav.Link> */}
+            <NavDropdown title="Media Sosial" id="basic-nav-dropdown">
+              <NavDropdown.Item href="https://www.instagram.com/kdk.alkaromah.uniska/">
                 <i className="bi bi-instagram"> </i>Instagram
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="mailto:kdkalkaromahuniskaofficial@gmail.com">
                 <i className="bi bi-envelope"> </i>Email
               </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}

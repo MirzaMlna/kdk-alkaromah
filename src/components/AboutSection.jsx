@@ -26,8 +26,8 @@ export default function AboutSection({ showModalButton }) {
           perasaan, dan perilaku Islami.
           <br />
           <b>Misi :</b> Menumbuh kembangkan nilai-nilai Islam sesuai pedoman
-          Syari &apos;at Islam di kampus (Islamisasi kampus) dengan mengacu pada
-          pembinaan, pengkaderan, Syi &apos;ar Islam dan Ukhuwah Islamiyah.
+          Syari&apos;at Islam di kampus (Islamisasi kampus) dengan mengacu pada
+          pembinaan, pengkaderan, Syi&apos;ar Islam dan Ukhuwah Islamiyah.
         </p>
 
         <button className="btn btn-success" onClick={showModalButton}>

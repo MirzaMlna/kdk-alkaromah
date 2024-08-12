@@ -25,7 +25,7 @@ export default function HeroSection() {
               Kajian Dakwah Kampus <br /> Al-Karomah
             </h1>
             <h4 className="fw-light fst-italic">
-              &ldquo; Generasi Terbaik Ummat &rdquo;
+              &ldquo; Mencetak Generasi Terbaik Ummat &rdquo;
             </h4>
             <button className="btn btn-lg btn-success mt-4">
               Bergabung Dengan Kami

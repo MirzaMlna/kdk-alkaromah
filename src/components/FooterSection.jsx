@@ -9,11 +9,10 @@ export default function FooterSection() {
           <Col md={6}>
             <h5 className="fw-bold">Created by</h5>
             <a
-              href="https://www.instagram.com/mirza_mlna/"
-              className="text-decoration-none text-light"
+              href="https://mirzamlna.github.io/portfolio/"
+              className="text-light"
             >
-              <i className="bi bi-instagram"> </i>
-              mirza_mlna
+              https://mirzamlna.github.io/portfolio/
             </a>
           </Col>
           <Col md={6} className="mt-lg-0 mt-3">
@@ -22,7 +21,7 @@ export default function FooterSection() {
               <li>
                 <a
                   href="https://www.instagram.com/kdk.alkaromah.uniska/"
-                  className="text-decoration-none text-light"
+                  className="text-light"
                 >
                   <i className="bi bi-instagram"> </i>
                   kdk.alkaromah.uniska
@@ -31,7 +30,7 @@ export default function FooterSection() {
               <li>
                 <a
                   href="mailto:kdkalkaromahuniskaofficial@gmail.com"
-                  className="text-decoration-none text-light"
+                  className="text-light"
                 >
                   <i className="bi bi-envelope"> </i>
                   kdkalkaromahuniskaofficial@gmail.com

@@ -28,7 +28,7 @@ export default function HeroSection() {
               &ldquo; Mencetak Generasi Terbaik Ummat &rdquo;
             </h4>
             <button className="btn btn-lg btn-success mt-4">
-              Gabung Sekarang
+              Bergabung Dengan Kami
             </button>
           </Col>
         </Row>

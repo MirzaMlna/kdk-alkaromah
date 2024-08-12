@@ -73,6 +73,9 @@ export default function DivisionSection() {
               />
             </Col>
           ))}
+          <button className="mt-5 btn btn-lg btn-success">
+            Bergabung Dengan Kami
+          </button>
         </Row>
 
         <Modal show={show} onHide={handleClose}>

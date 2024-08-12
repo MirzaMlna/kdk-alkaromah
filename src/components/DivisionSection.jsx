@@ -19,35 +19,35 @@ export default function DivisionSection() {
     {
       id: 1,
       name: "Opini & Media (Opidia)",
-      logo: "src/assets/division-logos/opidia-logo.png",
+      logo: "assets/opidia-logo.png",
       objective:
         "Divisi ini bergerak di bidang Desain, Pembuatan Konten dan Penyebaran Konten dakwah di kampus melalui berbagai media. Btw website ini dibuat oleh divisi ini juga loh 😁!",
     },
     {
       id: 2,
       name: "Minat & Bakat (Minba)",
-      logo: "src/assets/division-logos/minba-logo.png",
+      logo: "assets/minba-logo.png",
       objective:
         "Divisi ini bertujuan untuk mengembangkan minat & bakat anggota KDK Al-Karomah dan memiliki tugas untuk menyelenggarakan kegiatan yang sifatnya mempererat silah ukhuwah sesama anggota KDK Al Karomah.",
     },
     {
       id: 3,
       name: "Pembinaan & Pengkaderan (Binkad)",
-      logo: "src/assets/division-logos/binkad-logo.png",
+      logo: "assets/binkad-logo.png",
       objective:
         "Tujuan Divisi ini adalah mewujudkan kader yang berkualitas dengan meningkatkan pemahaman tsaqofah Islam, kedekatan hubungan dengan Allah, yang melahirkan sifat-sifat muslimin dan memiliki tugas membuat rencana aktivitas pembinaan yang mengacu pada sistem pembinaan KDK Al Karomah.",
     },
     {
       id: 4,
       name: "Rumah Tangga & Pengelolaan Masjid",
-      logo: "src/assets/division-logos/rtpm-logo.png",
+      logo: "assets/rtpm-logo.png",
       objective:
         "Divisi ini Menciptakan suasana nyaman di lingkungan mesjid kampus dan di dalam sekretariat KDK Al Karomah UNISKA Banjarmasin",
     },
     {
       id: 5,
       name: "Syiar",
-      logo: "src/assets/division-logos/syiar-logo.png",
+      logo: "assets/syiar-logo.png",
       objective:
         "Divisi ini bertujuan untuk meningkatkan jalinan-jalinan persaudaraan Islam (ukhuwah Islamiyah) internal dan eksternal kampus dan Sebagai wadah silah ukhuwah dan konsolidasi lembaga dakwah kampus.",
     },

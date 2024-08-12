@@ -6,7 +6,11 @@ import "../index.css";
 
 export default function MainNavbar() {
   return (
-    <Navbar expand="lg" className="bg-kdk sticky-top" data-bs-theme="dark">
+    <Navbar
+      expand="lg"
+      className="bg-kdk sticky-top shadow"
+      data-bs-theme="dark"
+    >
       <Container>
         <Navbar.Brand href="#home" className="fw-bold">
           KDK AL-KAROMAH
@@ -14,7 +18,7 @@ export default function MainNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#about">
+            <Nav.Link href="#aboutSection">
               <i className="bi bi-people"> </i> Tentang Kami
             </Nav.Link>
             <Nav.Link href="#division">

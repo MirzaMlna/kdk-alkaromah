@@ -1,41 +1,32 @@
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 
 function AboutSection() {
   return (
-    <section id="aboutSection" className="mt-5">
+    <section id="aboutSection" className="mt-5 px-3 ">
       <Container>
-        <Row>
-          <Col md={5}>
-            <Image
-              src="../src/assets/kdk-mockup.jpg"
-              className="mb-3 shadow"
-              fluid
-              rounded
-            />
-          </Col>
-          <Col md={1}></Col>
-          <Col md={6} className="mt-lg-0 mt-3">
-            <h2 className="fw-bold">Tentang Kami</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              tristique arcu a lectus blandit fringilla. Ut pharetra augue nec
-              tellus elementum, eget aliquam dolor.
-            </p>
-            <button className="btn btn-success">Pelajari Lebih Lanjut</button>
-            <h2 className="fw-bold mt-3">Visi dan Misi</h2>
-            <ul>
-              <li>
-                Visi: Menjadi perusahaan teknologi terkemuka di Indonesia.
-              </li>
-              <li>
-                Misi: Menyediakan solusi teknologi inovatif untuk masyarakat.
-              </li>
-            </ul>
-          </Col>
-        </Row>
+        <h2 className="fw-bold">Tentang Kami</h2>
+        <p className="text-justify">
+          KDK Al Karomah didirikan pada hari Rabu tanggal 20 bulan September
+          2000 M atau tanggal 21 bulan Jumadil Tsani tahun 1421 H. KDK Al
+          Karomah merupakan organisasi dakwah di lingkungan kampus UNISKA yang
+          secara struktural di bawah BEM UNISKA dan sejajar dengan Unit Kegiatan
+          Mahasiswa (UKM) di UNISKA. KDK Al Karomah berkedudukan di Universitas
+          Islam Kalimantan (UNISKA) Muhammad Arsyad Al Banjari (MAB). Tujuan
+          Organisasi ini adalah mewujudkan civitas akademika muslim di
+          lingkungan UNISKA pada khususnya dan masyarakat sekitar pada umumnya
+          agar berkepribadian Islam.
+        </p>
+        <h2 className="fw-bold mt-3">Visi & Misi</h2>
+        <p>
+          <b>Visi :</b> Membentuk mahasiswa muslim yang mempunyai pemikiran,
+          perasaan, dan perilaku Islami.
+          <br />
+          <b>Misi :</b> Menumbuh kembangkan nilai-nilai Islam sesuai pedoman
+          Syari &apos;at Islam di kampus (Islamisasi kampus) dengan mengacu pada
+          pembinaan, pengkaderan, Syi &apos;ar Islam dan Ukhuwah Islamiyah.
+        </p>
+
+        <button className="btn btn-success">Pelajari Lebih Lanjut</button>
       </Container>
     </section>
   );

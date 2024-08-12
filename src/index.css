@@ -30,5 +30,11 @@
 /* Navbar */
 
 /* Hero */
+#heroSection {
+  background-image: url(..\src\assets\hero-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Hero */

@@ -19,35 +19,35 @@ export default function DivisionSection() {
     {
       id: 1,
       name: "Opini & Media (Opidia)",
-      logo: "assets/opidia-logo.png",
+      logo: "assets/division-logos/opidia-logo.webp",
       objective:
         "Divisi ini bergerak di bidang Desain, Pembuatan Konten dan Penyebaran Konten dakwah di kampus melalui berbagai media. Btw website ini dibuat oleh divisi ini juga loh 😁!",
     },
     {
       id: 2,
       name: "Minat & Bakat (Minba)",
-      logo: "assets/minba-logo.png",
+      logo: "assets/division-logos/minba-logo.webp",
       objective:
         "Divisi ini bertujuan untuk mengembangkan minat & bakat anggota KDK Al-Karomah dan memiliki tugas untuk menyelenggarakan kegiatan yang sifatnya mempererat silah ukhuwah sesama anggota KDK Al Karomah.",
     },
     {
       id: 3,
       name: "Pembinaan & Pengkaderan (Binkad)",
-      logo: "assets/binkad-logo.png",
+      logo: "assets/division-logos/binkad-logo.webp",
       objective:
         "Tujuan Divisi ini adalah mewujudkan kader yang berkualitas dengan meningkatkan pemahaman tsaqofah Islam, kedekatan hubungan dengan Allah, yang melahirkan sifat-sifat muslimin dan memiliki tugas membuat rencana aktivitas pembinaan yang mengacu pada sistem pembinaan KDK Al Karomah.",
     },
     {
       id: 4,
       name: "Rumah Tangga & Pengelolaan Masjid",
-      logo: "assets/rtpm-logo.png",
+      logo: "assets/division-logos/rtpm-logo.webp",
       objective:
         "Divisi ini Menciptakan suasana nyaman di lingkungan mesjid kampus dan di dalam sekretariat KDK Al Karomah UNISKA Banjarmasin",
     },
     {
       id: 5,
       name: "Syiar",
-      logo: "assets/syiar-logo.png",
+      logo: "assets/division-logos/syiar-logo.webp",
       objective:
         "Divisi ini bertujuan untuk meningkatkan jalinan-jalinan persaudaraan Islam (ukhuwah Islamiyah) internal dan eksternal kampus dan Sebagai wadah silah ukhuwah dan konsolidasi lembaga dakwah kampus.",
     },
@@ -56,7 +56,10 @@ export default function DivisionSection() {
   return (
     <section id="divisionSection" className="pt-5 px-3">
       <Container className="mt-5">
-        <h2 className="fw-bold">Divisi</h2>
+        <h2 className="fw-bold">
+          <i className="bi bi-hdd-network"> </i>
+          Divisi
+        </h2>
         <p className="fst-italic">
           Tekan pada logo divisi untuk selengkapnya !
         </p>

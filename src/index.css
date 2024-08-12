@@ -31,10 +31,11 @@
 
 /* Hero */
 #heroSection {
-  background-image: url(..\public\assets\hero-bg.jpg);
+  background-image: url(..\public\assets\hero-bg.webp);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
 }
 
 /* Hero */

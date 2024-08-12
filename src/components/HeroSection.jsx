@@ -14,7 +14,7 @@ export default function HeroSection() {
           <Col md={6}>
             <Image
               width={isSmallScreen ? 100 : 200} // Adjust width based on screen size
-              src="assets\kdk-logo.png"
+              src="assets\kdk-logo.webp"
               className="mb-3 me-3"
               fluid
               rounded

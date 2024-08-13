@@ -27,9 +27,12 @@ export default function HeroSection() {
             <h4 className="fw-light fst-italic">
               &ldquo; Mencetak Generasi Terbaik Ummat &rdquo;
             </h4>
-            <button className="btn btn-lg btn-success mt-4">
-              Bergabung Dengan Kami
-            </button>
+            <a
+              href="https://forms.gle/X1pLMG9dv7bqV5MP8"
+              className="mt-4 btn btn-lg btn-success shadow"
+            >
+              Bergabung Dengan KDK
+            </a>
           </Col>
         </Row>
       </Container>

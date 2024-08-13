@@ -10,9 +10,10 @@ export default function AboutSection({ showModalButton }) {
     <section id="aboutSection" className="pt-5 px-3 ">
       <Container className="mt-5">
         <h2 className="fw-bold">
-          <i className="bi bi-people"> </i> Tentang Kami
+          <i className="bi bi-people text-kdk"> </i> Tentang Kami
         </h2>
-        <p className="text-justify">
+        <div className="section-title-line"></div>
+        <p className="mt-3">
           KDK Al Karomah merupakan organisasi dakwah di lingkungan kampus UNISKA
           yang secara struktural di bawah BEM UNISKA dan sejajar dengan Unit
           Kegiatan Mahasiswa (UKM) di UNISKA. KDK Al Karomah berkedudukan di
@@ -22,9 +23,10 @@ export default function AboutSection({ showModalButton }) {
           umumnya agar berkepribadian Islam.
         </p>
         <h2 className="fw-bold mt-3">
-          <i className="bi bi-file-earmark-text"> </i>Visi & Misi
+          <i className="bi bi-file-earmark-text text-kdk"> </i>Visi & Misi
         </h2>
-        <p>
+        <div className="section-title-line"></div>
+        <p className="mt-2">
           <b>Visi :</b> Membentuk mahasiswa muslim yang mempunyai pemikiran,
           perasaan, dan perilaku Islami.
           <br />

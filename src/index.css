@@ -39,3 +39,10 @@
 }
 
 /* Hero */
+
+.section-title-line {
+  margin-top: 10px;
+  border: 3px solid var(--kdk-primary);
+  width: 175px;
+  border-radius: 10px;
+}

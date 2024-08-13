@@ -39,10 +39,10 @@ export default function DivisionSection() {
     },
     {
       id: 4,
-      name: "Rumah Tangga & Pengelolaan Masjid",
+      name: "Rumah Tangga & Pengelolaan Masjid (RTPM)",
       logo: "assets/division-logos/rtpm-logo.webp",
       objective:
-        "Divisi ini Menciptakan suasana nyaman di lingkungan mesjid kampus dan di dalam sekretariat KDK Al Karomah UNISKA Banjarmasin",
+        "Divisi ini Menciptakan suasana nyaman di lingkungan mesjid kampus dan di dalam sekretariat KDK Al Karomah UNISKA Banjarmasin.",
     },
     {
       id: 5,
@@ -57,15 +57,16 @@ export default function DivisionSection() {
     <section id="divisionSection" className="pt-5 px-3">
       <Container className="mt-5">
         <h2 className="fw-bold">
-          <i className="bi bi-hdd-network"> </i>
+          <i className="bi bi-hdd-network  text-kdk"> </i>
           Divisi
         </h2>
-        <p className="fst-italic">
-          Tekan pada logo divisi untuk selengkapnya !
+        <div className="section-title-line"></div>
+        <p className="fst-italic mt-3">
+          Tekan pada logo divisi untuk menampilkan selengkapnya !
         </p>
-        <Row className="mt-5">
+        <Row className="mt-3">
           {divisions.map((division) => (
-            <Col key={division.id} md={4} className="">
+            <Col key={division.id} md={4} className="mt-lg-5 mt-0">
               <Image
                 className="mt-2 shadow"
                 width={300}
@@ -76,9 +77,12 @@ export default function DivisionSection() {
               />
             </Col>
           ))}
-          <button className="mt-5 btn btn-lg btn-success">
-            Bergabung Dengan Kami
-          </button>
+          <a
+            href="https://forms.gle/X1pLMG9dv7bqV5MP8"
+            className="mt-5 btn btn-lg btn-success shadow"
+          >
+            Bergabung Dengan KDK
+          </a>
         </Row>
 
         <Modal show={show} onHide={handleClose}>
